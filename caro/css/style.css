@@ -1,0 +1,12 @@
+.caro {
+    width: 500px;
+    height: 500px;
+    background: conic-gradient(
+            red 0, red 90deg,
+            yellow 90, yellow 180deg,
+            red 180deg, red 270deg,
+            yellow 270deg, yellow 360deg,
+
+        );
+        background-size: 100px 100px;
+}

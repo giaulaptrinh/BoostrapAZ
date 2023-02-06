@@ -1,0 +1,59 @@
+
+@media screen and (max-width:1024px){
+    #main-menu .sub-menu{
+        display:none;
+    }
+}
+@media screen and (max-width:768px){
+    #main-menu{
+        display: none;
+    }
+    #icon{
+        margin-right:50px;
+    }
+    #icon-main-menu{
+        display: block;
+    }
+    #info .bottle{
+        flex-direction: column;
+        align-items: center;
+    }
+    #info .bottle .function{
+        margin-bottom:15px;
+        box-sizing: border-box;
+        /* padding:20px 100px; */
+    }
+    #contact .bottle{
+        display: none;
+    }
+    #menu{
+        padding:0;
+    }
+    #logo{
+        padding-left:10px;
+    }
+    #icon-main-menu{
+        top:10px;
+        right:10px;
+    }
+    #info .bottle{
+        padding-bottom: 10px;
+    }
+    #info .bottle .function{
+        padding:5px 0px;
+    }
+    #banner{
+        margin-bottom:20px;
+    }
+    
+    h2{
+        margin-top:30px;
+    }
+}
+@media screen and (max-width:576px){
+   
+  
+}
+@media screen and (max-width:480px){
+   
+}

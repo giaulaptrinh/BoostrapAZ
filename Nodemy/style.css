@@ -1,0 +1,385 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@400;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,500&display=swap');
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000000;
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 50px;
+
+}
+
+.social {
+    list-style: none;
+    display: flex;
+    width: 30%;
+}
+
+.social li,
+.search i {
+    padding: 8px 16px;
+}
+
+.social li:hover,
+.search i:hover {
+    background: #ccc;
+    color: black;
+}
+
+.search {
+    margin-right: 20px;
+}
+
+/* ---------------- END HEADER------------------- */
+
+ .logo {
+    display: inline;
+    font-family: Oswald;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.sub-logo span {
+    background-color: #000000;
+    color: #fff;
+    display: inline-block;
+    line-height: 24px;
+    padding: 0px 8px;
+    text-align: center;
+
+}
+
+.slogan {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.feature {
+    margin-top: 30px;
+    background: url("images/jane.jpg");
+    background-size: cover;
+    height: 700px;
+
+    font-family: Oswald;
+
+
+}
+
+.feature h1 {
+    color: #ffff;
+    font-weight: 700;
+    position: absolute;
+    bottom: 330px;
+    margin-left: 40px;
+}
+
+.feature h2 {
+    font-weight: 700;
+    color: #fff;
+    position: absolute;
+    bottom: 220px;
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.feature button {
+    background-color: #ccc;
+    color: #000000;
+    position: absolute;
+    bottom: 150px;
+    margin-left: 40px;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: none;
+    outline: none;
+}
+
+/* ----------------------END FEATURE--------------------------- */
+
+
+
+/* ----------------------MAIN-------------- */
+.main {
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.wp-content {
+    display: flex;
+}
+
+.left-block {
+    flex-basis: 70%;
+}
+
+.right-block {
+    flex-basis: 30%;
+}
+
+.header-post {
+    text-align: center;
+    width: 400px;
+}
+
+.header-post h3 {
+    font-size: 18px;
+    text-align: center;
+    align-items: center;
+}
+
+.header-post h5 {
+    font-size: 24px;
+}
+
+
+.wp-post {
+    margin-left: 40px;
+}
+
+.des {
+    margin-top: 20px;
+    font-family: 'Open Sans';
+    font-size: 15px;
+}
+
+.more {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.more button {
+    padding: 10px;
+}
+
+.more button.like:hover {
+    background-color: #ccc;
+    border: none;
+    outline: none;
+}
+
+.more button.reply {
+    background: #000000;
+    color: #fff;
+    font-style: bold;
+    font-size: 15px;
+}
+
+.more button.reply:hover {
+    background-color: #ccc;
+    border: none;
+    outline: none;
+    color: #000000;
+}
+
+.more button.reply span {
+    background-color: #fff;
+    color: #000000;
+    padding: 2px;
+}
+
+.comment-list {
+    display: flex;
+    text-align: center;
+}
+
+.comment {
+    margin-left: 30px;
+    text-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.comment .p-comment b {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.comment p {
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: 'Open Sans';
+}
+
+.post {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+/* -----------------END LEFT-BLOCK ---------------- */
+
+
+.right-block {
+    margin-left: 40px;
+}
+
+.right-block img {
+    display: block;
+}
+
+.right-block .info {
+    background-color: #000000;
+    margin-bottom: 30px;
+
+}
+
+.right-block .info h3 {
+    font-size: 20px;
+    color: #fff;
+    font-family: Oswald;
+    margin-left: 10px;
+    line-height: 30px;
+
+}
+
+.right-block .info p {
+    font-size: 15px;
+    color: #fff;
+    font-family: 'Open Sans';
+    margin-left: 10px;
+    margin-top: 10px;
+    line-height: 22.5px;
+}
+
+.popular-post {
+    margin-bottom: 30px;
+}
+
+.popular-post h2 {
+    background-color: #000000;
+    color: #fff;
+    font-size: 18px;
+    padding: 20px 10px;
+}
+
+.popular-post-thumb {
+    padding: 15px 10px;
+    display: flex;
+
+}
+
+.popular-post-thumb .post-name p {
+    font-size: 18px;
+}
+
+.post-name {
+    margin-left: 10px;
+}
+
+.post-name p {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.post-name span {
+    font-size: 15px;
+}
+
+.Tag-post-thumb {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Tag-post-thumb h3 {
+    display: inline-block;
+    font-size: 15px;
+}
+
+.Tag-post-thumb span {
+    margin-right: 10px;
+    font-size: 14px;
+    background-color: #f1f1f1;
+    line-height: 18px;
+}
+
+.Insp-post-thumb {
+    margin-top: 20px;
+}
+
+.Insp-post-thumb img {
+    max-width: 100%;
+    display: flex;
+    margin: 10px 0px;
+}
+
+.popular-post form {
+    margin-left: 10px;
+    padding: 10px;
+    width: 100%;
+
+}
+
+.popular-post form label {
+    font-size: 15px;
+    font-family: 'Open Sans';
+
+}
+
+.popular-post form input {
+    font-size: 15px;
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    border-color: 1px solid #ccc;
+}
+
+
+
+.popular-post form button {
+    margin: 15px 0px;
+    background-color: rgb(232, 38, 38);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+}
+
+.popular-post form:hover button {
+    background-color: #ccc;
+    color: black;
+}
+
+
+ @media only screen and (max-width: 375px) {
+    .hide-on-mobile {
+        display: none;
+    } 
+    .left-block {
+        width: 100%;
+    }
+    .right-block {
+        width: 100%;
+    }
+    .wp-content {
+        flex-wrap: wrap;      
+    }
+    
+   
+ }
